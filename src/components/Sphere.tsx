@@ -14,7 +14,7 @@ const BlochSphere = () => {
         <meshBasicMaterial wireframe color="blue" />
       </mesh>
 
-      {/* State Vector pointing to |0⟩ */}
+      {/* State Vector */}
       <mesh position={[0, 0.5, 0]}>
         <cylinderGeometry args={[0.02, 0.02, 1, 32]} />
         <meshBasicMaterial color="red" />
